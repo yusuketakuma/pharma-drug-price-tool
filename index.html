@@ -548,7 +548,30 @@
           </div>
         </section>
       </div>
-    </main>
+    
+    <section class="related-tools" style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
+        <h3 style="margin-top: 0; color: #333;">📌 関連ツール</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+
+            <a href="https://yusuketakuma.github.io/free-tool-fee-calculator/" 
+               style="display: block; padding: 1rem; background: white; border-radius: 6px; text-decoration: none; border: 1px solid #e0e0e0; transition: all 0.2s;"
+               onmouseover="this.style.borderColor='#4a90d9'; this.style.transform='translateY(-2px)';"
+               onmouseout="this.style.borderColor='#e0e0e0'; this.style.transform='translateY(0)';">
+                <div style="font-weight: bold; color: #4a90d9; margin-bottom: 0.25rem;">調剤報酬計算</div>
+                <div style="font-size: 0.85rem; color: #666;">調剤報酬の自動計算</div>
+            </a>
+
+            <a href="https://yusuketakuma.github.io/free-tool-prescription-screening/" 
+               style="display: block; padding: 1rem; background: white; border-radius: 6px; text-decoration: none; border: 1px solid #e0e0e0; transition: all 0.2s;"
+               onmouseover="this.style.borderColor='#4a90d9'; this.style.transform='translateY(-2px)';"
+               onmouseout="this.style.borderColor='#e0e0e0'; this.style.transform='translateY(0)';">
+                <div style="font-weight: bold; color: #4a90d9; margin-bottom: 0.25rem;">処方鑑別支援</div>
+                <div style="font-size: 0.85rem; color: #666;">疑義照会の効率化</div>
+            </a>
+        </div>
+    </section>
+
+</main>
 
     <script>
       const drugData = [
@@ -785,7 +808,8 @@
     </section>
 
     <footer class="other-tools" style="margin-top: 24px; padding: 20px; background: #f3f4f6; border-radius: 12px;">
-      <h3 style="font-size: 0.9rem; font-weight: 600; margin-bottom: 12px; color: #4b5563;">🔧 その他の無料ツール（全21種）</h3>
+      <a href="https://yusuketakuma.github.io/pharma-free-tools/" target="_blank" style="display: inline-block; margin-bottom: 16px; padding: 8px 16px; background: #3b82f6; color: white; text-decoration: none; border-radius: 8px; font-size: 0.85rem; font-weight: 600;">🏠 全ツール一覧（ポータル）</a><br><br>
+      <h3 style="font-size: 0.9rem; font-weight: 600; margin-bottom: 12px; color: #4b5563;">🔧 その他の無料ツール（全22種）</h3>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px;">
         <a href="https://yusuketakuma.github.io/pharma-medication-history-tool/" style="display: block; padding: 10px 12px; background: white; border-radius: 8px; text-decoration: none; color: #1f2937; font-size: 0.85rem;">📝 薬歴テンプレート</a>
         <a href="https://yusuketakuma.github.io/pharma-medication-guidance-tool/" style="display: block; padding: 10px 12px; background: white; border-radius: 8px; text-decoration: none; color: #1f2937; font-size: 0.85rem;">🗣️ 服薬指導チェック</a>
@@ -798,6 +822,7 @@
         <a href="https://yusuketakuma.github.io/pharma-medication-calendar/" style="display: block; padding: 10px 12px; background: white; border-radius: 8px; text-decoration: none; color: #1f2937; font-size: 0.85rem;">🗓️ 服薬カレンダー</a>
         <a href="https://yusuketakuma.github.io/pharma-prescription-screening/" style="display: block; padding: 10px 12px; background: white; border-radius: 8px; text-decoration: none; color: #1f2937; font-size: 0.85rem;">🔍 処方鑑別チェック</a>
         <a href="https://yusuketakuma.github.io/pharma-di-query/" style="display: block; padding: 10px 12px; background: white; border-radius: 8px; text-decoration: none; color: #1f2937; font-size: 0.85rem;">📞 DI照会生成</a>
+        <a href="https://yusuketakuma.github.io/pharma-medication-reminder/" style="display: block; padding: 10px 12px; background: white; border-radius: 8px; text-decoration: none; color: #1f2937; font-size: 0.85rem;">🔔 服薬リマインダー生成</a>
         <a href="https://yusuketakuma.github.io/pharma-bringing-medicine/" style="display: block; padding: 10px 12px; background: white; border-radius: 8px; text-decoration: none; color: #1f2937; font-size: 0.85rem;">💊 持参薬チェック</a>
         <a href="https://yusuketakuma.github.io/pharma-inventory-alert/" style="display: block; padding: 10px 12px; background: white; border-radius: 8px; text-decoration: none; color: #1f2937; font-size: 0.85rem;">📦 在庫アラート通知</a>
         <a href="https://yusuketakuma.github.io/pharma-adherence-check/" style="display: block; padding: 10px 12px; background: white; border-radius: 8px; text-decoration: none; color: #1f2937; font-size: 0.85rem;">💊 服薬アドヒアランス評価</a>
